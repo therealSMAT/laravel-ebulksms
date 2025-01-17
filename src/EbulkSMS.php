@@ -53,13 +53,13 @@ class EbulkSMS
      * SMS Endpoint
      * @var string
      */
-    protected $endpoint = "http://api.ebulksms.com:8080/sendsms.json";
+    protected $endpoint = "https://api.ebulksms.com/sendsms.json";
 
     /**
      * Balance Endpoint
      * @var string
      */
-    protected $balance_endpoint = "http://api.ebulksms.com:8080/balance/";
+    protected $balance_endpoint = "https://api.ebulksms.com/balance/";
 
     /**
      * If message should be flashed or sent
